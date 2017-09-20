@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   var index = 0;
 
-  document.body.addEventListener('keydown' function(e){
+  document.body.addEventListener('keydown', function(e){
     var key = parseInt(e.which || e.detail);
 
     if(code[index] === key) {
